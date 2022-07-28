@@ -2,8 +2,10 @@ body{
     font-family: 'Nunito', sans-serif;
     margin: 0%;
 }
+h1{
+    font-size: 35px;
+}
 #welcome{
-    margin-left: 50px;
     height: 250px;
 }
 .welcome-h1{
@@ -11,14 +13,15 @@ body{
 }
 .welcome-div{
     height: 75px;
-    width: 500px;
+    width: 600px;
     position: absolute;
-    left: 206px;
+    left: 156px;
     top: 54px;
+    background-color: white;
 
     box-shadow: 10px 10px 40px;
     border-left: 7px solid;
-    border-image: linear-gradient( blue, cyan );
+    border-image: linear-gradient(blue, cyan );
     border-image-slice: 1;
     padding: 0 1% 75px 1%;
 }
@@ -27,4 +30,64 @@ body{
     width: 156px;
     position: absolute  ;
     top: 48px; ;
+}
+div{
+    margin-left: 50px;
+}
+.html-div{
+
+}
+.html-p{
+    width: 500px;
+    text-align: justify  ;
+}
+.html-a{
+    text-decoration: none;
+    font-weight: 900;
+    color:brown;
+} 
+.html-a:hover{
+    color: white;
+    font-size: 20px;
+    padding: 3px 6px;
+    background-image: linear-gradient(45deg, red, orange);
+    border-radius: 3px;
+    border: 1px solid black ;
+}
+.tag-p{
+    width: 500px;
+    text-align: justify  ;
+}
+.head1{
+    width: 45%;
+    float: left;
+    padding:  40px 1.5% 3% 3%;
+    padding: 40px 20px 40px 40px  ;
+    height: 250px;
+    margin-bottom: 25px;
+    height: 200px;
+}
+#bpi3{
+    height: 100%;
+    width: 100%;
+    padding-top: 75px;
+    padding-left: 75px;
+}
+.basic1{
+    float: left;
+    width: 45% ;
+    height: 350px;
+}
+.basic2{
+    float: left;
+    width: 45% ;
+    height: 350px;
+}
+#bpi5{
+    padding-left: 50px;
+}
+
+#heading{
+    margin-left: 40px ;
+    height: ;
 }
