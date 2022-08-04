@@ -6,7 +6,7 @@ h1{
     font-size: 35px;
 }
 #welcome{
-    height: 250px;
+    height: 250px; 
 }
 .welcome-h1{
     font-size: 50px;
@@ -32,7 +32,6 @@ h1{
     top: 48px; ;
 }
 div{
-    margin-left: 50px;
 }
 .html-div{
 
@@ -89,5 +88,4 @@ div{
 }
 #heading{
     margin-left: 40px ;
-    height: ;
 }
